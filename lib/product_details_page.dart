@@ -21,7 +21,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
         'title': widget.product['title'],
         'price': widget.product['price'],
         'imageUrl': widget.product['imageUrl'],
-        'company': widget.product['comapany'],
+        'company': widget.product['company'],
         'size': selectedSize,
       });
       ScaffoldMessenger.of(

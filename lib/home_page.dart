@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   
-  late String selectedFilter;
+  late String selectedSize;
   int currentPage=0;
   List <Widget> pages=[
     ProductList(),

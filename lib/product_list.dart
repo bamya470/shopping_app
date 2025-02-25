@@ -104,6 +104,7 @@ class _ProductListState extends State<ProductList> {
                       title: product['title'] as String,
                       price: product['price'] as double,
                       image: product['imageUrl'] as String,
+                      
                       backgorundColor:
                           index.isEven
                               ? Color.fromRGBO(216, 240, 253, 1)
